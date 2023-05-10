@@ -1,0 +1,170 @@
+{"level":"info","ts":"2023-04-14T13:18:41.293+0800","caller":"go-web-app/main.go:79","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-04-14T13:18:41.319+0800","caller":"go-web-app/main.go:88","msg":"Server exiting"}
+{"level":"info","ts":"2023-04-14T14:36:06.309+0800","caller":"go-web-app/main.go:85","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-04-14T14:36:06.322+0800","caller":"go-web-app/main.go:94","msg":"Server exiting"}
+{"level":"info","ts":"2023-04-14T16:26:28.622+0800","caller":"go-web-app/main.go:88","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-04-14T16:26:28.635+0800","caller":"go-web-app/main.go:97","msg":"Server exiting"}
+{"level":"info","ts":"2023-04-14T16:29:37.407+0800","caller":"go-web-app/main.go:88","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-04-14T16:29:37.421+0800","caller":"go-web-app/main.go:97","msg":"Server exiting"}
+{"level":"info","ts":"2023-04-14T16:32:29.374+0800","caller":"go-web-app/main.go:88","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-04-14T16:32:29.388+0800","caller":"go-web-app/main.go:97","msg":"Server exiting"}
+{"level":"info","ts":"2023-04-14T16:33:02.394+0800","caller":"logger/logger.go:49","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"info","ts":"2023-04-14T16:33:02.882+0800","caller":"logger/logger.go:49","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"info","ts":"2023-04-14T16:33:18.214+0800","caller":"go-web-app/main.go:88","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-04-14T16:33:18.214+0800","caller":"go-web-app/main.go:97","msg":"Server exiting"}
+{"level":"info","ts":"2023-04-14T16:48:53.794+0800","caller":"go-web-app/main.go:87","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-04-14T16:48:53.810+0800","caller":"go-web-app/main.go:96","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-09T10:58:26.144+0800","caller":"op-plane-agentd/main.go:75","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T10:58:26.159+0800","caller":"op-plane-agentd/main.go:84","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-09T11:00:41.512+0800","caller":"op-plane-agentd/main.go:75","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T11:00:41.521+0800","caller":"op-plane-agentd/main.go:84","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-09T11:01:30.279+0800","caller":"op-plane-agentd/main.go:75","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T11:01:30.280+0800","caller":"op-plane-agentd/main.go:84","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-09T11:07:06.257+0800","caller":"op-plane-agentd/main.go:75","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T11:07:06.259+0800","caller":"op-plane-agentd/main.go:84","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-09T13:16:56.960+0800","caller":"op-plane-agentd/main.go:75","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T13:16:56.974+0800","caller":"op-plane-agentd/main.go:84","msg":"Server exiting"}
+{"level":"error","ts":"2023-05-09T13:47:24.317+0800","caller":"op-plane-agentd/main.go:47","msg":"init Processing failed, err:%v\n","error":"dial tcp 127.0.0.1:8083: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"info","ts":"2023-05-09T13:47:35.337+0800","caller":"op-plane-agentd/main.go:75","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T13:47:35.339+0800","caller":"op-plane-agentd/main.go:84","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-09T13:49:34.616+0800","caller":"op-plane-agentd/main.go:75","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T13:49:34.634+0800","caller":"op-plane-agentd/main.go:84","msg":"Server exiting"}
+{"level":"error","ts":"2023-05-09T13:49:42.617+0800","caller":"op-plane-agentd/main.go:47","msg":"init Processing failed, err:%v\n","error":"dial tcp 127.0.0.1:8083: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"info","ts":"2023-05-09T14:01:55.645+0800","caller":"op-plane-agentd/main.go:75","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T14:01:55.645+0800","caller":"op-plane-agentd/main.go:84","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-09T17:13:02.131+0800","caller":"op-plane-agentd/main.go:75","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T17:13:02.160+0800","caller":"op-plane-agentd/main.go:84","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-09T17:16:50.782+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T17:16:50.797+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-09T17:18:08.518+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T17:18:08.525+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-09T17:19:26.217+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T17:19:26.229+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-09T17:21:37.022+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T17:21:37.023+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-09T17:27:43.875+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-09T17:27:43.876+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T09:29:08.008+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T09:29:08.009+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T09:36:13.265+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T09:36:13.266+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:04:24.619+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:04:24.620+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:04:43.227+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:04:43.228+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:22:34.474+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:22:34.476+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:27:57.376+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:27:57.377+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:33:38.151+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:33:38.152+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:37:45.825+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:37:45.825+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:38:25.159+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:38:25.160+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:39:57.090+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:39:57.090+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:40:00.153+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:40:00.155+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:44:46.642+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:44:46.643+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:49:00.954+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:49:00.955+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:49:48.806+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:49:48.806+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:55:48.018+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:55:48.019+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:56:20.507+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:56:20.521+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T10:59:36.314+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T10:59:36.315+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T11:00:20.231+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T11:00:20.233+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T11:01:18.055+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T11:01:18.056+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T13:36:58.782+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T13:36:58.782+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T13:44:16.339+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T13:44:16.339+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T13:49:59.394+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T13:49:59.395+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T13:52:43.384+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T13:52:43.384+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T13:52:59.292+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T13:52:59.292+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T13:55:26.516+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T13:55:26.516+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T13:56:36.632+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T13:56:36.633+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T14:40:14.544+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T14:40:14.544+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T14:43:14.814+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T14:43:14.815+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:28:40.135+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:28:40.135+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:29:58.471+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:29:58.472+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:30:52.491+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:30:52.492+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:31:58.180+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:31:58.181+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:32:38.002+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:32:38.003+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:33:30.685+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:33:30.686+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:40:50.834+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:40:50.836+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:54:06.531+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:54:06.531+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:54:40.897+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:54:40.898+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:54:45.049+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:54:45.050+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:56:45.466+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:56:45.467+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:57:23.660+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:57:23.660+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:58:23.317+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:58:23.318+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T16:58:30.070+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T16:58:30.084+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:00:42.986+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:00:42.986+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:01:11.663+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:01:11.664+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:19:54.340+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:19:54.340+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:27:25.680+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:27:25.680+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:28:41.186+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:28:41.187+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:29:54.337+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:29:54.338+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:31:14.200+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:31:14.200+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:33:39.273+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:33:39.274+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:35:17.418+0800","caller":"op-plane-agentd/main.go:81","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:35:17.419+0800","caller":"op-plane-agentd/main.go:90","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:35:56.892+0800","caller":"op-plane-agentd/main.go:82","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:35:56.892+0800","caller":"op-plane-agentd/main.go:91","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:36:49.207+0800","caller":"op-plane-agentd/main.go:82","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:36:49.208+0800","caller":"op-plane-agentd/main.go:91","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:37:08.035+0800","caller":"op-plane-agentd/main.go:82","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:37:08.035+0800","caller":"op-plane-agentd/main.go:91","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:37:26.133+0800","caller":"op-plane-agentd/main.go:82","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:37:26.156+0800","caller":"op-plane-agentd/main.go:91","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:37:39.318+0800","caller":"op-plane-agentd/main.go:82","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:37:39.318+0800","caller":"op-plane-agentd/main.go:91","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:40:57.664+0800","caller":"op-plane-agentd/main.go:82","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:40:57.665+0800","caller":"op-plane-agentd/main.go:91","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:42:16.677+0800","caller":"op-plane-agentd/main.go:82","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:42:16.678+0800","caller":"op-plane-agentd/main.go:91","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:42:46.405+0800","caller":"op-plane-agentd/main.go:82","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:42:46.406+0800","caller":"op-plane-agentd/main.go:91","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:43:37.200+0800","caller":"op-plane-agentd/main.go:82","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:43:37.201+0800","caller":"op-plane-agentd/main.go:91","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:47:35.693+0800","caller":"op-plane-agentd/main.go:82","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:47:35.693+0800","caller":"op-plane-agentd/main.go:91","msg":"Server exiting"}
+{"level":"info","ts":"2023-05-10T17:49:10.562+0800","caller":"op-plane-agentd/main.go:82","msg":"Shutdown Server ..."}
+{"level":"info","ts":"2023-05-10T17:49:10.563+0800","caller":"op-plane-agentd/main.go:91","msg":"Server exiting"}

@@ -1,0 +1,21 @@
+name: "op-plane-gentd"
+mode: "dev"
+port: 8082
+version: "v0.0.1"
+machine_id: 1
+start_time: "2000-05-09"
+
+
+log:
+  level: "info"
+  filename: "./web_app.log"
+  max_size: 100
+  max_age: 30
+  max_backups: 7
+
+server:
+    ip: "127.0.0.1"
+    port: 8081
+    heartbeat: 5
+    hostname: "sinfotek"
+
