@@ -4,7 +4,7 @@ port: 8082
 version: "v0.0.1"
 machine_id: 1
 start_time: "2000-05-09"
-
+clientip: "192.168.0.117"
 
 log:
   level: "info"

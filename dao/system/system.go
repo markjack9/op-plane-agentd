@@ -87,6 +87,22 @@ func Systeminfo(p string) (s string, err error) {
 		s = strings.Replace(s, "Minutes", "分钟", -1)
 		s = strings.Replace(s, "Seconds", "秒", -1)
 		return s, err
+	case p == "systeminfo":
+		Option := []string{"Win32_Processor", "Win32_BIOS", "Win32_PhysicalMemory", "Win32_BaseBoard",
+			"Win32_OperatingSystem", "Win32_ComputerSystem"}
+		var OptionString []string
+		for _, v := range Option {
+			command := "Get-wmiObject -CLass " + v
+			commaninput := exec.Command("powershell.exe", command)
+			output, _ := commaninput.CombinedOutput()
+			outstring := codeconversion.ConvertByte2String(output, "GB18030")
+			OptionString = append(OptionString, outstring)
+		}
+		for _, i := range OptionString {
+			s += i
+		}
+
+		return s, err
 	}
 	return s, err
 

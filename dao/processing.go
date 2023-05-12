@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/robfig/cron"
+	"go-web-app/dao/network"
 	"go-web-app/dao/system"
 	"go-web-app/models"
 	"go-web-app/pkg/todaytime"
@@ -72,20 +73,7 @@ func ServerConfirm(cfg *settings.ServerConfig) (Hostid int64, err error) {
 
 func GoPost(parame models.ClientData, cfg *settings.ServerConfig) (err error) {
 	url := fmt.Sprintf("http://%s:%d/clientdata", cfg.Ip, cfg.Port)
-
-	ClientParame := models.ClientData{
-		ParameterType: parame.ParameterType,
-		ClientParame: models.ClientParame{
-			Hostid:       parame.Hostid,
-			Hostname:     parame.Hostname,
-			OptionTime:   parame.OptionTime,
-			OptionNote:   parame.OptionNote,
-			OptionIp:     parame.OptionIp,
-			OpitonParame: parame.OpitonParame,
-		},
-	}
-
-	clientdata, err := json.Marshal(ClientParame)
+	clientdata, err := json.Marshal(parame)
 	if err != nil {
 		return err
 	}
@@ -123,15 +111,30 @@ func GoPost(parame models.ClientData, cfg *settings.ServerConfig) (err error) {
 	if err != nil {
 		fmt.Println("error:", err)
 	}
-	fmt.Println(data)
 	return
 }
 
-func Processing(Hostid int64, cfg *settings.ServerConfig) (err error) {
-	fmt.Println(Hostid)
+func Processing(Hostid int64, cfg *settings.AppConfig) (err error) {
+	systeminfo, err := system.Systeminfo("systeminfo")
+	fmt.Println(systeminfo)
+	parame := models.ClientData{
+		ParameterType: "systeminfo",
+		ClientParame: models.ClientParame{
+			Hostid:       Hostid,
+			Hostname:     cfg.HostName,
+			OptionTime:   todaytime.NowTimeFull(),
+			OptionNote:   "",
+			OptionIp:     cfg.ClientIp,
+			OpitonParame: systeminfo,
+		},
+	}
+
+	err = GoPost(parame, settings.Conf.ServerConfig)
+	if err != nil {
+		return
+	}
 	c := cron.New()
-	spec := "*/5 * * * * ?"
-	err = c.AddFunc(spec, func() {
+	err = c.AddFunc("* */10 * * *", func() {
 		systemdata, err := system.Systeminfo("sup")
 		if err != nil {
 			return
@@ -143,11 +146,51 @@ func Processing(Hostid int64, cfg *settings.ServerConfig) (err error) {
 				Hostname:     cfg.HostName,
 				OptionTime:   todaytime.NowTimeFull(),
 				OptionNote:   "",
-				OptionIp:     "127.0.0.1",
+				OptionIp:     cfg.ClientIp,
 				OpitonParame: systemdata,
 			},
 		}
 
+		err = GoPost(parame, settings.Conf.ServerConfig)
+		if err != nil {
+			return
+		}
+	})
+	if err != nil {
+		return err
+	}
+	err = c.AddFunc("*/1 * * * *", func() {
+		cpu, err := system.Systeminfo("cpu")
+		if err != nil {
+			return
+		}
+		memory, err := system.Systeminfo("mp")
+		if err != nil {
+			return
+		}
+		uns, err := network.NetworkSentSpeed("uns")
+		if err != nil {
+			return
+		}
+		dns, err := network.NetworkSentSpeed("dns")
+		if err != nil {
+			return
+		}
+
+		parame := models.ClientData{
+			ParameterType: "basemonitoring",
+			ClientParame: models.ClientParame{
+				Hostid:             Hostid,
+				Hostname:           cfg.HostName,
+				OptionTime:         todaytime.NowTimeFull(),
+				OptionIp:           cfg.ClientIp,
+				OptionParameCpu:    cpu,
+				OptionParameMemory: memory,
+				OptionParameUns:    uns,
+				OptionParameDns:    dns,
+			},
+		}
+		fmt.Println("定时任务", parame)
 		err = GoPost(parame, settings.Conf.ServerConfig)
 		if err != nil {
 			return

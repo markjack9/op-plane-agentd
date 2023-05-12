@@ -15,6 +15,7 @@ type AppConfig struct {
 	Port          int    `mapstructure:"port"`
 	StartTime     string `mapstructure:"start_time"`
 	MachineId     int64  `mapstructure:"machine_id"`
+	ClientIp      string `mapstructure:"clientip"`
 	*LogConfig    `mapstructure:"log"`
 	*ServerConfig `mapstructure:"server"`
 }

@@ -50,7 +50,7 @@ func main() {
 			return
 		}
 		fmt.Println(Hostid)
-		if err := dao.Processing(Hostid, settings.Conf.ServerConfig); err != nil {
+		if err := dao.Processing(Hostid, settings.Conf); err != nil {
 			zap.L().Error("init Processing failed, err:%v\n", zap.Error(err))
 			return
 		}
