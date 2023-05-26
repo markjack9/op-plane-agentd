@@ -18,4 +18,8 @@ server:
     port: 8081
     heartbeat: 5
     hostname: "sinfotek"
-
+etcd:
+  host: ["127.0.0.1:8084"]
+  username: "root"
+  password: "sinfotek"
+  dialtiemeout: 3000

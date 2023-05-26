@@ -18,6 +18,7 @@ type AppConfig struct {
 	ClientIp      string `mapstructure:"clientip"`
 	*LogConfig    `mapstructure:"log"`
 	*ServerConfig `mapstructure:"server"`
+	*EtcdConfig   `mapstructure:"etcd"`
 }
 
 type ServerConfig struct {
@@ -33,6 +34,13 @@ type LogConfig struct {
 	MaxSize    int    `mapstructure:"max_size"`
 	MaxAge     int    `mapstructure:"max_age"`
 	MaxBackups int    `mapstructure:"max_backups"`
+}
+
+type EtcdConfig struct {
+	Endpoints   []string `mapstructure:"host"`
+	DialTimeout int64    `mapstructure:"dialtiemeout"`
+	Username    string   `mapstructure:"username"`
+	Password    string   `mapstructure:"password"`
 }
 
 func Init(configfile string) (err error) {

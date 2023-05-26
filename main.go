@@ -5,6 +5,7 @@ import (
 	"flag"
 	"fmt"
 	"go-web-app/dao"
+	"go-web-app/dao/crond"
 	"go-web-app/logger"
 	"go-web-app/routes"
 	"go-web-app/settings"
@@ -42,7 +43,10 @@ func main() {
 	}(zap.L())
 	zap.L().Debug("logger init success...")
 	//加载数据采集程序
-
+	if err := crond.InitCrontab(settings.Conf.EtcdConfig); err != nil {
+		zap.L().Error("init Etcd failed, err:%v\n", zap.Error(err))
+		return
+	}
 	go func() {
 		Hostid, err := dao.ServerConfirm(settings.Conf.ServerConfig)
 		if err != nil {
